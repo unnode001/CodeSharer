@@ -1,4 +1,4 @@
-# CodeSharer
+![image](https://github.com/user-attachments/assets/1a7530f3-e8d4-4fba-ad4e-f7440dfe8c14)# CodeSharer
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
@@ -8,8 +8,7 @@
 
 ---
 
-![应用截图](docs/screenshot.png)
-*(提示: 请将您的应用截图保存为 `docs/screenshot.png` 以在此处显示)*
+![应用截图]![image](https://github.com/user-attachments/assets/30f3836f-37a7-414c-a6cf-7d58de7326a2)
 
 ## 简介 (Introduction)
 
