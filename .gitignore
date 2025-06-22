@@ -1,0 +1,68 @@
+# .gitignore for CodeSharer Project
+
+# --- 1. Python & Virtual Environment ---
+# 忽略整个虚拟环境目录。这是必须的，因为它包含了大量的库文件，
+# 并且每个开发者的环境都可能不同。我们通过 requirements.txt 来管理依赖。
+/venv/
+/docs/
+
+# 忽略Python的字节码文件和缓存目录。这些文件是自动生成的。
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略Python打包和安装时生成的目录
+*.egg-info/
+.eggs/
+
+
+# --- 2. Application Generated Data & Artifacts ---
+# 忽略客户端本地数据库目录。这是用户个人的数据，不应纳入版本控制。
+/data/
+/local_storage.db
+
+# 忽略PyInstaller打包时生成的目录和文件。这些是构建产物，不是源码。
+/dist/
+/build/
+*.spec
+
+
+# --- 3. Secrets & Environment Variables ---
+# 忽略包含敏感信息（如数据库密码）的环境变量文件。
+# 这是保障安全的关键！应该提供一个 .env.example 文件作为模板。
+.env
+*.env.local
+
+
+# --- 4. IDE & Editor Configuration ---
+# 忽略主流IDE和编辑器的项目配置文件，避免提交个人开发设置。
+# Visual Studio Code
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# --- 5. Operating System Files ---
+# 忽略macOS系统生成的目录视图配置文件。
+.DS_Store
+
+# 忽略Windows系统生成的缩略图缓存文件。
+Thumbs.db
+
+
+# --- 6. Log Files ---
+# 忽略所有日志文件。
+*.log
+logs/
+
+
+# --- 7. Docker (Optional) ---
+# 如果您使用 docker-compose.override.yml 来覆盖本地开发配置，
+# 最好也将其忽略。
+docker-compose.override.yml
