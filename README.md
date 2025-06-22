@@ -8,7 +8,7 @@
 
 ---
 
-![应用截图]![image](https://github.com/user-attachments/assets/30f3836f-37a7-414c-a6cf-7d58de7326a2)
+[image](https://github.com/user-attachments/assets/30f3836f-37a7-414c-a6cf-7d58de7326a2)
 
 ## 简介 (Introduction)
 
