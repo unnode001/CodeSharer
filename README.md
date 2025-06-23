@@ -1,5 +1,3 @@
-# CodeSharer
-
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Frameworks](https://img.shields.io/badge/frameworks-PyQt6_&_FastAPI-green.svg)
@@ -7,10 +5,6 @@
 **一款轻量级的桌面代码片段管理器，支持本地存储和在线分享。**
 
 ---
-
-![应用截图](docs/screenshot.png)
-*(提示: 请将您的应用截图保存为 `docs/screenshot.png` 以在此处显示)*
-
 ## 简介 (Introduction)
 
 在日常开发、教学或技术支持中，我们经常需要记录、复用和分享代码片段。CodeSharer 旨在解决这一痛点，它提供了一个简洁、高效的桌面端解决方案，让开发者可以轻松管理本地代码库，并通过一键操作将代码分享给他人，生成一个带有时效性的链接。
